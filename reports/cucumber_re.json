@@ -1,0 +1,176 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "positive-flow-testing;sign-in-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sign in with valid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4015620299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I sign in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1131020900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should be logged in successfully",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29237399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "positive-flow-testing;add-product-to-cart-and-proceed-to-checkout",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Add product to cart and proceed to checkout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I am logged in",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3713182500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I add a product to the cart",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623954399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I proceed to checkout",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 516738800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the checkout page",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 74198899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "positive-flow-testing;sign-in-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Sign in with invalid credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4070178100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I sign in with invalid credentials",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 876187300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should see an error message",
+            "match": {
+              "location": "features\\step-definitions\\positive_flow.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54388199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "positive-flow-testing",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Positive Flow Testing",
+    "tags": [],
+    "uri": "features\\positive_flow.feature"
+  }
+]
